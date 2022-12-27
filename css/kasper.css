@@ -15,7 +15,7 @@ html {
 }
 body {
     font-family: "Open Sans", sans-serif;
-background-color:black;
+background-color:#1b1818;
 }
 ul {
     list-style: none;
@@ -240,6 +240,7 @@ left: 27px;
 .services {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    text-align: center;
 }
 @media (min-width: 768px) {
     .services .services-container {
@@ -349,6 +350,7 @@ left: 27px;
 .portfolio {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    text-align: center;
 }
 .portfolio .shuffle {
     display: flex;
@@ -356,6 +358,7 @@ left: 27px;
 }
 .portfolio .shuffle li {
     padding: 10px;
+    color: white;
 }
 .portfolio .shuffle li.active {
     background-color: var(--main-color);
@@ -701,6 +704,7 @@ left: 27px;
 .pricing {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    text-align: center;
 }
 .pricing .plans {
     display: grid;
@@ -773,6 +777,9 @@ left: 27px;
 .pricing .plans .plan .foot a:hover{
     background-color:var(--main-color);
 }
+.contact {
+    text-align: center;
+}
 .pricing .contact-text {
     text-align: center;
     margin: 50px auto 20px;
@@ -783,11 +790,16 @@ left: 27px;
     display: block;
     width: fit-content;
     margin: 20px auto;
-    background-color: var(--main-color);
+    background-color: black;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 10px;
+    transition: 0.5s ease;
+}
+.pricing .contact-link:hover{
+    background-color: var(--main-color);
+    color: black;
 }
   /* End Pricing */
   /* Start Subscribe */
@@ -995,14 +1007,16 @@ left: 27px;
 }
 .main-heading h2 {
     color: #ffffffaa;
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase
 }
 .main-heading p {
     color: #ffffffaa;
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
   /* End Footer */
