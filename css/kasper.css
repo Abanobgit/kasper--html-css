@@ -140,6 +140,7 @@ header .form i {
 }
 header .form i:hover {
     color: var(--main-color);
+    transform: scale(1.1);
 }
 
 /* Start Landing */
